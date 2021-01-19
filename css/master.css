@@ -5,14 +5,13 @@ body{
 }
 
 .top{
-  height: 100px;
+  height: auto;
   background-color: white;
   margin-bottom: 3%;
+  padding: 1%;
 }
 
 .top img{
-  margin-left: 15px;
-  margin-top: 15px;
   vertical-align: middle;
 }
 
@@ -106,38 +105,56 @@ span.done, span.to-do{
   padding: 3px;
 }
 
-.marker{
+.marker-editorial{
   border-radius: 20px;
   padding: 8px 15px;
   font-size: 65%;
-}
-
-#editorial{
   background-color: #47ADF1;
   color: white;
 }
 
-#goals{
+.marker-goals{
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 65%;
   background-color: #9C72E4;
   color: white;
 }
 
-#recruit{
+.marker-recruit{
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 65%;
   background-color: #64C0A9;
   color: white;
 }
 
-#mobile{
+.marker-mobile{
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 65%;
   background-color: #F29E33;
   color: white;
 }
 
-#web{
+.marker-web{
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 65%;
   background-color: #D863A1;
   color: white;
 }
 
-#sales{
+.marker-sales{
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 65%;
   background-color: #B0C926;
   color: white;
+}
+
+.marker-editorial{
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 65%;
 }
