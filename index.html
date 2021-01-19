@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>toboolist</title>
+    <link rel="stylesheet" href="../html-css-toboolist/css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="top"> <!--header della pagina-->
+      <img height="70" src="../html-css-toboolist/assets/img/Logo.png" alt="logo-toboolist">
+      <span>Toboolist</span>
+    </div>
+
+    <div class="corpo"> <!--corpo pagina-->
+      <div class="container"> <!--classe container per regole generali 'cravatta'-->
+        <button type="button" name="Add Task" class="enabled">Add Task</button>
+        <button type="button" name="Add Section" class="disabled">Add Section</button>
+      </div>
+
+      <div class="container">
+          <div class="lista"><!--lista-->
+            <ul>
+              <li><h2>New Task</h2>
+                <ul class="lista-interna"><!--lista annidata-->
+                  <li>
+                    <span><span class="done"></span>Quarterly Newsletter</span>
+                    <span class="marker" id="editorial">Editorial</span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="lista">
+            <ul>
+              <li><h2>Today</h2>
+                <ul class="lista-interna">
+                  <li>
+                    <span><span class="done"></span>Recruiting blog post</span>
+                    <span class="marker" id="editorial">Editorial</span>
+                  </li>
+                  <li>
+                    <span><span class="done"></span>Mobile app launch</span>
+                    <span class="marker" id="goals">Q1 Goals</span>
+                  </li>
+                  <li>
+                    <span><span class="to-do"></span>Interview John H.</span>
+                    <span class="marker" id="recruit">Recruiting</span>
+                  </li>
+                  <li>
+                    <span><span class="done"></span>Summit update to mobile storefronts</span>
+                    <span class="marker" id="mobile">Mobile</span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="lista">
+            <ul>
+              <li><h2>Upcoming</h2>
+                <ul class="lista-interna">
+                  <li>
+                    <span><span class="to-do"></span>Schedule meeting with Alex</span>
+                  </li>
+                  <li>
+                    <span><span class="done"></span>Homepage refresh</span>
+                    <span class="marker" id="web">Q1 Goals</span>
+                  </li>
+                  <li>
+                    <span><span class="done"></span>Onboard new Sales team members</span>
+                    <span class="marker" id="sales">Sales</span>
+                  </li>
+                  <li>
+                    <span><span class="done"></span>Review editorial calendar</span>
+                    <span class="marker" id="editorial">Editorial</span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+  </body>
+</html>
