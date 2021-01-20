@@ -4,6 +4,8 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
+
 .top{
   height: auto;
   background-color: white;
@@ -32,11 +34,7 @@ body{
   background-color: white;
 }
 
-.lista{
-  padding: 10px 0px;
-  margin: 5px 0px 0px 0px;
-  background-color: white;
-}
+/* Buttons */
 
 button.btn:enabled{
   width: auto;
@@ -57,6 +55,15 @@ button.btn:disabled{
   border: 0px;
   padding: 10px 10px;
   opacity: 0.4;
+}
+
+
+/* Liste */
+
+.lista{
+  padding: 10px 0px;
+  margin: 5px 0px 0px 0px;
+  background-color: white;
 }
 
 ul{
@@ -105,50 +112,38 @@ span.done, span.to-do{
   padding: 3px;
 }
 
-.marker-editorial{
+.marker{
   border-radius: 20px;
   padding: 8px 15px;
   font-size: 65%;
+}
+
+.marker.editorial{
   background-color: #47ADF1;
   color: white;
 }
 
-.marker-goals{
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 65%;
+.marker.goals{
   background-color: #9C72E4;
   color: white;
 }
 
-.marker-recruit{
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 65%;
+.marker.recruit{
   background-color: #64C0A9;
   color: white;
 }
 
-.marker-mobile{
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 65%;
+.marker.mobile{
   background-color: #F29E33;
   color: white;
 }
 
-.marker-web{
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 65%;
+.marker.web{
   background-color: #D863A1;
   color: white;
 }
 
-.marker-sales{
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 65%;
+.marker.sales{
   background-color: #B0C926;
   color: white;
 }
