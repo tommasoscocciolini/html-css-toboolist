@@ -38,7 +38,7 @@ body{
   background-color: white;
 }
 
-.container button.enabled{
+button.btn:enabled{
   width: auto;
   font-size: 70%;
   background: #47ADF1;
@@ -48,7 +48,7 @@ body{
   padding: 10px 10px;
 }
 
-button.disabled{
+button.btn:disabled{
   width: auto;
   font-size: 70%;
   background: lightgrey;
@@ -151,10 +151,4 @@ span.done, span.to-do{
   font-size: 65%;
   background-color: #B0C926;
   color: white;
-}
-
-.marker-editorial{
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 65%;
 }
